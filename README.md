@@ -12,7 +12,12 @@ The Data:
 Each setting (radius in geometric random network model) was simulated 500 times and the agents belief averaged at the end of 10^7 rounds or until all agents beliefs are < 0.0001 or > 1-0.0001. For each simulation run under a setting (given in the name n = number of players (always 50), rad = radius in random geometric graph model, a = learning rate alpha of the simple exponential smoothing rule) we track the following statistics.
 
 Est: Average estimate of the beliefs of all agents at the termination of the simulation
+
 time: The number of rounds simulated (max 10^7 -1 because we start counting at 0)
+
 max_d: maximum node degree in the graph instance
+
 mean_d: average node degree in the graph instance
+
 triangles: number of triangles in the graph instance
+
