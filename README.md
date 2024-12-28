@@ -21,4 +21,4 @@ mean_d: average node degree in the graph instance
 
 triangles: number of triangles in the graph instance
 
-In a second upload I have added the data related to the regular graphs (circulants). The naming convention is quite similar with now conX indicating that the number of connections is X (raning from 2 i.e., the circle graph, to 8).
+In a second upload I have added the data related to the regular graphs (circulants). The naming convention is quite similar with now conX indicating that the number of connections is X (ranging from 2 i.e., the circle graph, to 8).
